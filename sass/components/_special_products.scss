@@ -1,0 +1,163 @@
+
+@import '../variable/variable';
+@import './theme_feature';
+
+/* ==============================
+       ||||veg_collection part start||||
+=================================*/
+
+#special_products{
+    background: $white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px ;
+    position: relative;
+    .section_heading{
+        width: 670px;
+        margin: 0 auto;
+        position: relative;
+        
+    
+        h2{
+            font-family: $lato;
+            font-size: 36px;
+            color: $font_clr;
+            text-transform: uppercase;
+            font-weight: 700;
+            line-height: 1;
+            letter-spacing: .02em;
+            padding-bottom: 40px;
+            position: relative;
+            margin-bottom: 30px;
+            &::after{
+                position: absolute;
+                height: 1px;
+                width: 180px;
+                background-color: $theme_color;
+                content: "";
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                bottom: 19px;
+            }
+            }
+            &::after{
+                position: absolute;
+                height: 10px;
+                width: 10px;
+                background-color: $theme_color;
+                content: "";
+                left: 305px;
+                top: 51px;
+             
+            }
+            &::before{
+                position: absolute;
+                height: 10px;
+                width: 10px;
+                background-color: $theme_color;
+                content: "";
+                left: 320px;
+                top: 51px;
+            }
+            span{
+                &::after{
+                    position: absolute;
+                    height: 10px;
+                    width: 10px;
+                    background-color: $theme_color;
+                    content: "";
+                    left: 335px;
+                    top: 51px;
+                 
+                }
+                &::before{
+                    position: absolute;
+                    height: 10px;
+                    width: 10px;
+                    background-color: $theme_color;
+                    content: "";
+                    left: 350px;
+                    top: 51px;
+                }
+            }
+        }
+        p{
+            font-family: $lato;
+            font-size: 36px;
+            font-size: 14px;
+            color: $paragraph_clr;
+            line-height: 24px;
+            letter-spacing: .05em;
+            margin-bottom: 0;
+        }
+
+        .border_right{
+            border-right: 1px solid #f1f5f4;
+
+        }
+        .border_left{
+            border-left: 1px solid #f1f5f4;
+
+        }
+
+        .beet{
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            border-bottom: 1px solid #f1f5f4;
+            img{
+                height: 300px;
+                object-fit: cover;
+                transform: scale(1);
+                transition: all linear .3s;
+                &:hover{
+                    transform: scale(1.05);
+                }
+            }
+        }
+        .cabbage{
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            img{
+                height: 300px;
+                object-fit: cover;
+                transform: scale(1);
+                transition: all linear .3s;
+                &:hover{
+                    transform: scale(1.05);
+                }
+            }
+        }
+
+        .vegetable_type{
+            .star_icon{
+                i{
+                    color: #ffc107;
+                    font-size: 12px;
+                }
+            }
+            h4{
+                font-family: $lato;
+                font-size: 18px;
+                font-weight: 700;
+                span{
+                    color: #aaa;
+                    font-size: 14px;
+                    font-family: $lato;
+                }
+                }
+        
+               
+        }
+
+     
+
+    }
+    
+
+/* ==============================
+       |||||veg_collection part end||||
+=================================*/

@@ -1,0 +1,1365 @@
+/* Extra Large device start */
+
+@media (min-width:1200px) and (max-width:1399.98px){
+  
+/* mobile menu start */
+
+.mobile_menu{
+    display:none; 
+}
+/* mobile menu end */
+
+    /* navbar start */
+
+    #navbar {
+        padding: 30px 0;
+    
+    }
+
+    .navbar {
+        padding-bottom: 0 !important;
+    }
+
+    #navbar ul li {
+      
+        padding-left: 12px;
+      
+    }
+
+
+    /* navbar end */
+}
+
+/* Extra Large device end */
+
+
+/* Large device start */
+
+@media (min-width:992px) and (max-width:1199.98px) {
+    /* header part start */
+    .top_header .header_contact {
+        display: none;
+    }
+
+/* mobile menu start */
+
+.mobile_menu{
+    display:none; 
+}
+/* mobile menu end */
+
+/* header part end */
+
+    /* navbar start */
+
+    #navbar {
+        padding: 20px 0;
+    
+    }
+
+    .navbar {
+        padding-bottom: 0 !important;
+    }
+
+  
+    .nav_right_icon {
+        display: none;
+    }
+
+    #navbar .brand_logo {
+        justify-content: space-between;
+        gap: 60px;
+       
+    }
+    #navbar .brand_logo .small_device_menu{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+       
+    }
+    #navbar .brand_logo .small_device_menu i{
+        font-size: 28px;
+        color: #ff4c3b;
+    }
+
+    .dark #navbar ul li a {
+        color: #222;
+    }
+
+      /* small device right side offcanvas start */
+      .offcanvas-header {
+       
+        justify-content: flex-end;
+    }
+
+    .btn-close {
+       
+        background: none;
+       
+    }
+
+    .small-offcanvas .fa-chevron-right{
+        font-size: 15px !important;
+        color: black !important;
+    }
+
+    .offcanvas-header .btn-close {  
+        margin-top: -1.3rem;
+        
+    }
+
+    .small_offcanvas_body .small_accordion-item{
+        border: none !important;
+    }
+    .small_offcanvas_body .small_accordion-item button{
+            padding: 10px 15px;
+            color: #222;
+            font-weight: 700;
+            font-size: 14px;
+            font-family: Lato,sans-serif;
+            line-height: 23px;
+            letter-spacing: .07em;
+    }
+    .small_offcanvas_body .small_accordion-item button:hover{
+           color: #ff4c3b;
+    }
+    .small_offcanvas_body .small_accordion-item .small_device_accrodion_body ul li{
+        color: #222;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 5px 35px;
+        display: block;
+        letter-spacing: .07em;
+        line-height: 1.9;
+    }
+
+    .btn-check:focus+.btn-primary, .btn-primary:focus {
+      box-shadow: none !important;
+    }
+
+    .btn-check:focus+.btn, .btn:focus {
+       
+        box-shadow: none !important;
+
+    }
+
+    .btn-close:focus {
+        box-shadow: none !important;
+    }
+
+    /* small device right side offcanvas end */
+
+    #navbar .brand_logo .small_device_menu button{
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+
+    #navbar .brand_logo .small_device_menu img{
+        margin-right: 5px;
+    }
+    #navbar .brand_logo .small_device_menu .images{
+        position: relative;
+    }
+    #navbar .brand_logo .small_device_menu .images span{
+        width: 15px;
+        height: 15px;
+        padding: 12px;
+        border-radius: 50%;
+        background-color: #ff4c3b;
+        position: absolute;
+        top: -13px;
+        right: -14px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    /* navbar end */
+
+    /* banner part start */
+
+    .carousel-caption {
+        bottom: -1rem;
+        right: 44%;
+        padding-bottom: 9.25rem;
+    }
+
+    .carousel-caption h5 {
+        font-size: 18px;
+        letter-spacing: .4em;
+        color: #777;
+    }
+
+    .carousel-caption h2 {
+        font-size: 50px;
+    }
+
+   
+    /* banner part end */
+
+    /* collection part start */
+
+    .man_image {
+  
+        margin-bottom: 20px;
+    }
+
+    .man_image .banner_contain {
+        padding-left: 0; 
+        padding-right:0;
+    }
+
+    .banner_contain h4 {
+        font-size: 16px;
+    }
+
+    .banner_contain h2 {
+        font-size: 35px;
+    }
+
+    .Women_image .banner_contain {
+        padding-left: 0; 
+        padding-right:0;
+    }
+
+    /* collection part end */
+
+    /* Top collection part start */
+
+    #top_collection .section_heading {
+       min-width: 300px !important;
+       
+    }
+
+    #top_collection .section_heading h4 {
+        font-size: 16px;
+    }
+
+    #top_collection .section_heading h2 {
+        font-size: 24px;
+    }
+    /* Top collection part end */
+
+/* Trend Fashion part start */
+
+    .fashion_info {
+    text-align: center;
+    }
+
+    #trend_fashion .fashion_info h2 {
+    font-size: 85px;
+    }
+
+    #trend_fashion .fashion_info h3 {
+        font-size: 50px;
+     
+    }
+
+    #trend_fashion .fashion_info h4 {
+        font-size: 22px;
+        color: #777;
+    
+    }
+
+/* Trend Fashion part end*/
+
+    /* Exclusive Products part start */
+    #exclusive .section_heading {
+        min-width: 300px !important;
+    }
+
+    #exclusive .section_heading h4 {
+        font-size: 16px;
+        
+    }
+
+    #exclusive .section_heading h2 {
+        font-size: 24px;
+    }
+
+    #exclusive #offer .offer_item .offer_icon svg {
+        width: 45px;
+        height: 45px;
+        display: block;
+      
+    }
+
+    #exclusive #offer .offer_item .offer_text h4 {
+        font-size: 16px;
+    }
+
+    #exclusive #offer .offer_item .offer_text h6 {
+
+        color: #777;
+    }
+
+   
+    /* Exclusive Products part end */
+
+    /* Blog part start */
+    #blog .section_heading {
+        min-width: 300px !important;
+    }
+
+    #blog .section_heading h4 {
+        font-size: 16px;
+    }
+
+    #blog .section_heading h2 {
+        font-size: 24px;
+    }
+    /* Blog part end */
+
+    /* Footer part start */
+   
+ 
+    #footer .subscribe input {
+        padding: 13px;
+        width: 170px;
+       
+    }
+
+    #footer .subscribe {
+      margin: 8px 45px;
+    }
+
+    #section_b .footer_category {
+        margin: 8px 45px;
+    }
+
+    #section_b .footer_category h4 {
+       
+        border-bottom: none;
+    }
+
+    .footer_choose {
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+
+    #section_b .footer_choose h4 {
+        padding-bottom: 7px;
+        border-bottom: none;
+    }
+
+    #section_b .footer_info {
+    margin-top: 8px; 
+    margin-left: 0;
+    }
+
+    #section_b .footer_info h4 {
+        padding-bottom: 7px;
+        border-bottom: none;
+    }
+
+    #section_b .footer_Social_icon a {
+        margin-right: 22px;
+  
+    }
+
+    .payment {
+      
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .footer_copy {
+        text-align: center;
+    }
+    /* Footer part end */
+    }
+
+/* Large device end */
+
+
+/* Medium device start */
+
+@media (min-width:768px) and (max-width:991.98px) {
+    /* header part start */
+    .top_header .header_contact {
+        display: none;
+    }
+
+/* mobile menu start */
+
+.mobile_menu{
+    display:none; 
+}
+/* mobile menu end */
+
+/* header part end */
+
+    /* navbar start */
+
+    #navbar {
+        padding: 20px 0;
+    
+    }
+
+    .navbar {
+        padding-bottom: 0 !important;
+    }
+
+  
+    .nav_right_icon {
+        display: none;
+    }
+
+    #navbar .brand_logo {
+        justify-content: space-between;
+        gap: 60px;
+       
+    }
+    #navbar .brand_logo .small_device_menu{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+       
+    }
+
+    #navbar .brand_logo .small_device_menu button{
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+
+
+    #navbar .brand_logo .small_device_menu i{
+        font-size: 28px;
+        color: #ff4c3b;
+    }
+
+    .dark #navbar ul li a {
+        color: #222;
+    }
+
+      /* small device right side offcanvas start */
+      .offcanvas-header {
+       
+        justify-content: flex-end;
+    }
+
+    .btn-close {
+       
+        background: none;
+       
+    }
+
+    .small-offcanvas .fa-chevron-right{
+        font-size: 15px !important;
+        color: black !important;
+    }
+
+    .offcanvas-header .btn-close {  
+        margin-top: -1.3rem;
+        
+    }
+
+    .small_offcanvas_body .small_accordion-item{
+        border: none !important;
+    }
+    .small_offcanvas_body .small_accordion-item button{
+            padding: 10px 15px;
+            color: #222;
+            font-weight: 700;
+            font-size: 14px;
+            font-family: Lato,sans-serif;
+            line-height: 23px;
+            letter-spacing: .07em;
+    }
+    .small_offcanvas_body .small_accordion-item button:hover{
+           color: #ff4c3b;
+    }
+    .small_offcanvas_body .small_accordion-item .small_device_accrodion_body ul li{
+        color: #222;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 5px 35px;
+        display: block;
+        letter-spacing: .07em;
+        line-height: 1.9;
+    }
+
+    .btn-check:focus+.btn-primary, .btn-primary:focus {
+        box-shadow: none !important;
+      }
+  
+      .btn-check:focus+.btn, .btn:focus {
+         
+          box-shadow: none !important;
+  
+      }
+
+      .btn-close:focus {
+        box-shadow: none !important;
+    }
+
+
+    /* small device right side offcanvas end */
+    #navbar .brand_logo .small_device_menu img{
+        margin-right: 5px;
+    }
+    #navbar .brand_logo .small_device_menu .images{
+        position: relative;
+    }
+    #navbar .brand_logo .small_device_menu .images span{
+        width: 15px;
+        height: 15px;
+        padding: 12px;
+        border-radius: 50%;
+        background-color: #ff4c3b;
+        position: absolute;
+        top: -13px;
+        right: -14px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    /* navbar end */
+
+    /* banner part start */
+
+    .carousel-caption {
+        bottom: -1rem;
+        right: 44%;
+        padding-bottom: 5.25rem;
+    }
+
+    .carousel-caption h5 {
+        font-size: 16px;
+        letter-spacing: .4em;
+        color: #777;
+    }
+
+    .carousel-caption h2 {
+        font-size: 35px;
+    }
+
+    .btn-solid {
+        padding: 9px 17px;
+    }
+    /* banner part end */
+
+    /* collection part start */
+
+    .man_image {
+  
+        margin-bottom: 20px;
+    }
+
+    .man_image .banner_contain {
+        padding-left: 0; 
+        padding-right:0;
+    }
+
+    .banner_contain h4 {
+        font-size: 16px;
+    }
+
+    .banner_contain h2 {
+        font-size: 35px;
+    }
+
+    .Women_image .banner_contain {
+        padding-left: 0; 
+        padding-right:0;
+    }
+
+    /* collection part end */
+
+    /* Top collection part start */
+
+    #top_collection .section_heading {
+       min-width: 300px !important;
+       
+    }
+
+    #top_collection .section_heading h4 {
+        font-size: 16px;
+    }
+
+    #top_collection .section_heading h2 {
+        font-size: 24px;
+    }
+    /* Top collection part end */
+
+/* Trend Fashion part start */
+
+    .fashion_info {
+    text-align: center;
+    }
+
+    #trend_fashion .fashion_info h2 {
+    font-size: 55px;
+    }
+
+    #trend_fashion .fashion_info h3 {
+        font-size: 30px;
+     
+    }
+
+    #trend_fashion .fashion_info h4 {
+        font-size: 18px;
+        color: #777;
+    
+    }
+
+/* Trend Fashion part end*/
+
+    /* Exclusive Products part start */
+    #exclusive .section_heading {
+        min-width: 300px !important;
+    }
+
+    #exclusive .section_heading h4 {
+        font-size: 16px;
+        
+    }
+
+    #exclusive .section_heading h2 {
+        font-size: 24px;
+    }
+
+    #exclusive #offer .offer_item .offer_icon svg {
+        width: 45px;
+        height: 45px;
+        display: block;
+      
+    }
+
+    #exclusive #offer .offer_item .offer_text h4 {
+        font-size: 16px;
+    }
+
+    #exclusive #offer .offer_item .offer_text h6 {
+
+        color: #777;
+    }
+
+   
+    /* Exclusive Products part end */
+
+    /* Blog part start */
+    #blog .section_heading {
+        min-width: 300px !important;
+    }
+
+    #blog .section_heading h4 {
+        font-size: 16px;
+    }
+
+    #blog .section_heading h2 {
+        font-size: 24px;
+    }
+    /* Blog part end */
+
+    /* Footer part start */
+    .footer_left {
+        text-align: center;
+    }
+
+    #footer .footer_left p {
+      display: none;
+    }
+
+    #footer .subscribe input {
+        padding: 9px;
+        width: 170px;
+       
+    }
+
+    #footer .subscribe {
+      margin: 8px 45px;
+    }
+
+    #section_b .footer_category {
+        margin: 8px 45px;
+    }
+
+    #section_b .footer_category h4 {
+       
+        border-bottom: none;
+    }
+
+    .footer_choose {
+        margin-top: 61px;
+    }
+
+    #section_b .footer_choose h4 {
+        padding-bottom: 7px;
+        border-bottom: none;
+    }
+
+    #section_b .footer_info {
+    margin-top: 60px; 
+    margin-left: 0;
+    }
+
+    #section_b .footer_info h4 {
+        padding-bottom: 7px;
+        border-bottom: none;
+    }
+
+    .payment {
+        margin-top: 20px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .footer_copy {
+        text-align: center;
+    }
+    /* Footer part end */
+    }
+
+/* Medium device end */
+
+
+/* Small device start */
+
+@media (min-width:578px) and (max-width:767.98px) {
+    /* header part start */
+    .top_header .header_contact {
+        display: none;
+    }
+
+/* mobile menu start */
+
+.mobile_menu{
+    display:none; 
+}
+/* mobile menu end */
+
+/* header part end */
+
+    /* navbar start */
+
+    #navbar {
+        padding: 15px 0;
+    
+    }
+
+    .navbar {
+        padding-bottom: 0 !important;
+    }
+
+  
+    .nav_right_icon {
+        display: none;
+    }
+
+    #navbar .brand_logo {
+        justify-content: flex-start !important;
+        gap: 60px;
+       
+    }
+    #navbar .brand_logo .small_device_menu{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+       
+    }
+
+    #navbar .brand_logo .small_device_menu button{
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+
+    #navbar .brand_logo .small_device_menu i{
+        font-size: 28px;
+        color: #ff4c3b;
+    }
+
+    .dark #navbar ul li a {
+        color: #222;
+    }
+
+      /* small device right side offcanvas start */
+      .offcanvas-header {
+       
+        justify-content: flex-end;
+    }
+
+    .btn-close {
+       
+        background: none;
+       
+    }
+
+    .small-offcanvas .fa-chevron-right{
+        font-size: 15px !important;
+        color: black !important;
+    }
+
+    .offcanvas-header .btn-close {  
+        margin-top: -1.3rem;
+        
+    }
+
+    .small_offcanvas_body .small_accordion-item{
+        border: none !important;
+    }
+    .small_offcanvas_body .small_accordion-item button{
+            padding: 10px 15px;
+            color: #222;
+            font-weight: 700;
+            font-size: 14px;
+            font-family: Lato,sans-serif;
+            line-height: 23px;
+            letter-spacing: .07em;
+    }
+    .small_offcanvas_body .small_accordion-item button:hover{
+           color: #ff4c3b;
+    }
+    .small_offcanvas_body .small_accordion-item .small_device_accrodion_body ul li{
+        color: #222;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 5px 35px;
+        display: block;
+        letter-spacing: .07em;
+        line-height: 1.9;
+    }
+
+    .btn-check:focus+.btn-primary, .btn-primary:focus {
+        box-shadow: none !important;
+      }
+  
+      .btn-check:focus+.btn, .btn:focus {
+         
+          box-shadow: none !important;
+  
+      }
+      .btn-close:focus {
+        box-shadow: none !important;
+    }
+
+
+    /* small device right side offcanvas end */
+
+    #navbar .brand_logo .small_device_menu img{
+        margin-right: 5px;
+    }
+    #navbar .brand_logo .small_device_menu .images{
+        position: relative;
+    }
+    #navbar .brand_logo .small_device_menu .images span{
+        width: 15px;
+        height: 15px;
+        padding: 12px;
+        border-radius: 50%;
+        background-color: #ff4c3b;
+        position: absolute;
+        top: -13px;
+        right: -14px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    /* navbar end */
+
+    /* banner part start */
+
+    .carousel-caption {
+        bottom: -1rem;
+        right: 44%;
+        padding-bottom: 3.25rem;
+    }
+
+    .carousel-caption h5 {
+        font-size: 16px;
+        letter-spacing: .4em;
+        color: #777;
+    }
+
+    .carousel-caption h2 {
+        font-size: 35px;
+    }
+
+    .btn-solid {
+        padding: 9px 17px;
+    }
+    /* banner part end */
+
+    /* collection part start */
+
+    .man_image {
+  
+        margin-bottom: 20px;
+    }
+
+    .man_image .banner_contain {
+        padding-left: 0; 
+        padding-right:0;
+    }
+
+    .banner_contain h4 {
+        font-size: 16px;
+    }
+
+    .banner_contain h2 {
+        font-size: 35px;
+    }
+
+    .Women_image .banner_contain {
+        padding-left: 0; 
+        padding-right:0;
+    }
+
+    /* collection part end */
+
+    /* Top collection part start */
+
+    #top_collection .section_heading {
+       min-width: 300px !important;
+       
+    }
+
+    #top_collection .section_heading h4 {
+        font-size: 16px;
+    }
+
+    #top_collection .section_heading h2 {
+        font-size: 24px;
+    }
+    /* Top collection part end */
+
+/* Trend Fashion part start */
+
+    .fashion_info {
+    text-align: center;
+    }
+
+    #trend_fashion .fashion_info h2 {
+    font-size: 55px;
+    }
+
+    #trend_fashion .fashion_info h3 {
+        font-size: 30px;
+     
+    }
+
+    #trend_fashion .fashion_info h4 {
+        font-size: 18px;
+        color: #777;
+    
+    }
+
+/* Trend Fashion part end*/
+
+    /* Exclusive Products part start */
+    #exclusive .section_heading {
+        min-width: 300px !important;
+    }
+
+    #exclusive .section_heading h4 {
+        font-size: 16px;
+        
+    }
+
+    #exclusive .section_heading h2 {
+        font-size: 24px;
+    }
+
+    #exclusive #offer .offer_item {
+        margin-bottom: 40px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #exclusive #offer .border_left {
+        border-left: none;
+    }
+
+    /* Exclusive Products part end */
+
+    /* Blog part start */
+    #blog .section_heading {
+        min-width: 300px !important;
+    }
+
+    #blog .section_heading h4 {
+        font-size: 16px;
+    }
+
+    #blog .section_heading h2 {
+        font-size: 24px;
+    }
+    /* Blog part end */
+
+    /* Footer part start */
+    .footer_left {
+        text-align: center;
+    }
+
+    #footer .footer_left p {
+      display: none;
+    }
+
+    #footer .subscribe input {
+        padding: 9px;
+        width: 170px;
+       
+    }
+
+    #footer .subscribe {
+        margin: 10px 0;
+    }
+
+    #section_b .footer_category {
+        margin: 60px 0;
+    }
+
+    #section_b .footer_category h4 {
+        padding-bottom: 7px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    #section_b .footer_choose h4 {
+        padding-bottom: 7px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    #section_b .footer_info {
+    margin-top: 60px; 
+    margin-left: 0;
+    }
+
+    #section_b .footer_info h4 {
+        padding-bottom: 7px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .payment {
+        margin-top: 20px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .footer_copy {
+        text-align: center;
+    }
+    /* Footer part end */
+    }
+
+/* Small device end */
+
+/* Extra small device start */
+
+@media (max-width:577.98px) {
+    /* header part start */
+.top_header{
+    display: none;
+}
+
+/* mobile menu start */
+
+.mobile_menu{
+    display: block !important; 
+}
+/* mobile menu start */
+
+.Messanger .messanger_icon {
+   
+    display: none;
+}
+
+/* header part end */
+
+    /* navbar start */
+
+    #navbar {
+        padding: 0;
+    
+    }
+
+    .navbar {
+        padding-bottom: 0 !important;
+    }
+
+    .navbar-toggler{
+        font-size: 1.8rem;
+        margin-top: 5px;
+    }
+
+    .nav_right_icon{
+        display: none;
+    }
+
+    #navbar .brand_logo .small_device_menu .images {
+       display: none;
+    }
+
+    #navbar .brand_logo .small_device_menu button{
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+    #navbar .brand_logo .small_device_menu i{
+        font-size: 28px;
+        color: #ff4c3b;
+    }
+
+    .dark #navbar ul li a {
+        color: #222;
+    }
+
+    /* small device right side offcanvas start */
+    .offcanvas-header {
+       
+        justify-content: flex-end;
+    }
+
+    .btn-close {
+       
+        background: none;
+       
+    }
+
+    .small-offcanvas .fa-chevron-right{
+        font-size: 15px !important;
+        color: black !important;
+    }
+
+    .offcanvas-header .btn-close {  
+        margin-top: -1.3rem;
+        
+    }
+
+    .small_offcanvas_body .small_accordion-item{
+        border: none !important;
+    }
+    .small_offcanvas_body .small_accordion-item button{
+            padding: 10px 15px;
+            color: #222;
+            font-weight: 700;
+            font-size: 14px;
+            font-family: Lato,sans-serif;
+            line-height: 23px;
+            letter-spacing: .07em;
+    }
+    .small_offcanvas_body .small_accordion-item button:hover{
+           color: #ff4c3b;
+    }
+    .small_offcanvas_body .small_accordion-item .small_device_accrodion_body ul li{
+        color: #222;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 5px 35px;
+        display: block;
+        letter-spacing: .07em;
+        line-height: 1.9;
+    }
+
+    .btn-check:focus+.btn-primary, .btn-primary:focus {
+        box-shadow: none !important;
+      }
+  
+      .btn-check:focus+.btn, .btn:focus {
+         
+          box-shadow: none !important;
+  
+      }
+
+      .btn-close:focus {
+        box-shadow: none !important;
+    }
+
+
+    /* small device right side offcanvas end */
+
+    
+
+    
+    /* navbar end */
+
+    /* banner part start */
+
+    .carousel-caption {
+        bottom: -1rem;
+        right: 44%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        color: #777;
+    }
+
+    .carousel-caption h2 {
+        font-size: 20px;
+    }
+
+    .btn-solid {
+        padding: 9px 17px;
+    }
+    /* banner part end */
+
+    /* collection part start */
+
+    .man_image {
+  
+        margin-bottom: 20px;
+    }
+
+    .man_image .banner_contain {
+        padding-left: 0; 
+        padding-right:0;
+    }
+
+    .banner_contain h4 {
+        font-size: 16px;
+    }
+
+    .banner_contain h2 {
+        font-size: 35px;
+    }
+
+    .Women_image .banner_contain {
+        padding-left: 0; 
+        padding-right:0;
+    }
+
+    /* collection part end */
+
+    /* Top collection part start */
+
+    #top_collection .section_heading {
+       min-width: 300px !important;
+       
+    }
+
+    #top_collection .section_heading h4 {
+        font-size: 16px;
+    }
+
+    #top_collection .section_heading h2 {
+        font-size: 24px;
+    }
+    /* Top collection part end */
+
+/* Trend Fashion part start */
+
+    .fashion_info {
+    text-align: center;
+    }
+
+    #trend_fashion .fashion_info h2 {
+    font-size: 55px;
+    }
+
+    #trend_fashion .fashion_info h3 {
+        font-size: 30px;
+     
+    }
+
+    #trend_fashion .fashion_info h4 {
+        font-size: 18px;
+        color: #777;
+    
+    }
+
+/* Trend Fashion part end*/
+
+    /* Exclusive Products part start */
+    #exclusive .section_heading {
+        min-width: 300px !important;
+    }
+
+    #exclusive .section_heading h4 {
+        font-size: 16px;
+        
+    }
+
+    #exclusive .section_heading h2 {
+        font-size: 24px;
+    }
+
+    #exclusive #offer .offer_item {
+        margin-bottom: 40px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #exclusive #offer .border_left {
+        border-left: none;
+    }
+
+    /* Exclusive Products part end */
+
+    /* Blog part start */
+    #blog .section_heading {
+        min-width: 300px !important;
+    }
+
+    #blog .section_heading h4 {
+        font-size: 16px;
+    }
+
+    #blog .section_heading h2 {
+        font-size: 24px;
+    }
+    /* Blog part end */
+
+    /* Footer part start */
+    .footer_left {
+        text-align: center;
+    }
+
+    #footer .footer_left p {
+      display: none;
+    }
+
+    #footer .subscribe input {
+        padding: 9px;
+        width: 170px;
+       
+    }
+
+    #footer .subscribe {
+        margin: 10px 0;
+    }
+
+    #section_b .footer_category {
+        margin: 60px 0;
+    }
+
+    #section_b .footer_category h4 {
+        padding-bottom: 7px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    #section_b .footer_choose h4 {
+        padding-bottom: 7px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    #section_b .footer_info {
+    margin-top: 60px; 
+    margin-left: 0;
+    }
+
+    #section_b .footer_info h4 {
+        padding-bottom: 7px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .payment {
+        margin-top: 20px;
+        margin-bottom: 70px;
+        text-align: center;
+    }
+    /* Footer part end */
+    }
+
+    /* Extra small device end */

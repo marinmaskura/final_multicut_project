@@ -1,0 +1,268 @@
+
+@import '../variable/variable';
+@import './theme_feature';
+
+
+/* ==============================
+       ||||banner part end||||
+=================================*/
+/* ==============================
+       ||||veg_collection part start||||
+=================================*/
+
+#veg_collection{
+    background: $white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    position: relative;
+    .section_heading{
+        width: 670px;
+        margin: 0 auto;
+        position: relative;
+        
+    
+        h2{
+            font-family: $lato;
+            font-size: 36px;
+            color: $font_clr;
+            text-transform: uppercase;
+            font-weight: 700;
+            line-height: 1;
+            letter-spacing: .02em;
+            padding-bottom: 40px;
+            position: relative;
+            margin-bottom: 30px;
+            &::after{
+                position: absolute;
+                height: 1px;
+                width: 180px;
+                background-color: $theme_color;
+                content: "";
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                bottom: 19px;
+            }
+            }
+            &::after{
+                position: absolute;
+                height: 10px;
+                width: 10px;
+                background-color: $theme_color;
+                content: "";
+                left: 305px;
+                top: 51px;
+             
+            }
+            &::before{
+                position: absolute;
+                height: 10px;
+                width: 10px;
+                background-color: $theme_color;
+                content: "";
+                left: 320px;
+                top: 51px;
+            }
+            span{
+                &::after{
+                    position: absolute;
+                    height: 10px;
+                    width: 10px;
+                    background-color: $theme_color;
+                    content: "";
+                    left: 335px;
+                    top: 51px;
+                 
+                }
+                &::before{
+                    position: absolute;
+                    height: 10px;
+                    width: 10px;
+                    background-color: $theme_color;
+                    content: "";
+                    left: 350px;
+                    top: 51px;
+                }
+            }
+        }
+        p{
+            font-family: $lato;
+            font-size: 36px;
+            font-size: 14px;
+            color: $paragraph_clr;
+            line-height: 24px;
+            letter-spacing: .05em;
+            margin-bottom: 0;
+        }
+
+        .item{
+            .vegetable_image{
+                position: relative;
+
+                .label_block{
+                    position: absolute;
+                    .label_3{
+                        border-radius: 100%;
+                        background-color: $theme_color;
+                        text-align: center;
+                        font-size: 13px;
+                        font-family: $lato;
+                        font-weight: 700;
+                        position: absolute;
+                        padding: 9px 4px;
+                        text-transform: uppercase;
+                        color: #fff;
+                        top: -317px;
+                        left: 7px;
+                        z-index: 1;
+                    }
+                    .label_4{
+                        position: absolute;
+                        font-size: 14px;
+                        font-weight: 700;
+                        font-family: $lato;
+                        transform: rotate(268deg);
+                        top: -317px;
+                        right: -315px;
+                        letter-spacing: .1em;
+                        z-index: 1;
+                        color: #212529;
+                    }
+                }
+
+                .shopping_cart{
+                    position: absolute;                   
+                    display: flex;
+                    flex-direction: row;
+                    gap: 10px;
+                    box-shadow: 0 0 12px #ddd;
+                    position: absolute;
+                    margin: 0 auto;                  
+                    right: 0;
+                    left: 0;
+                    bottom: 1%;
+                    border-radius: 50px;
+                    width: max-content;
+                    padding: 12px 15px;                 
+                    background-color: #fff;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: all .3s ease;
+                    a{
+
+                        i{
+                            color: #6f6f6f;
+                            font-size: 18px;
+                            transition: all linear .3s;
+                            &:hover{
+                                color: $theme_color;
+                            }
+                        }
+                       
+                    }
+                }
+                &:hover .shopping_cart {
+                    opacity: 1 !important;
+                    visibility: visible;
+                    bottom: 10%;
+                    
+                }
+            }
+       
+        }
+
+        .vegetable_type{
+            .star_icon{
+                i{
+                    color: #ffc107;
+                    font-size: 15px;
+                }
+            }
+            h4{
+                font-family: $lato;
+                span{
+                    color: #aaa;
+                    font-size: 14px;
+                    font-family: $lato;
+                }
+                }
+        
+               
+        }
+
+        .hello{
+            .offer{
+               
+                background-color: #fff;
+                box-shadow: 0 0 8px #ddd;
+                padding: 55px 0;
+                position: absolute;
+                width: 1320px;
+                top: -110px;
+             .offer_item{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .offer_icon{
+                    
+                    svg{
+                        margin-right: 12px;
+                        width: 60px;
+                        height: 60px;
+                        transition: all .5s ease;
+                    }
+                    &:hover svg{
+                        animation: pulse 1s ease-in-out;
+                        transition: all .3s ease;
+                    }
+            
+                }
+                @keyframes pulse {
+                    0%{
+                        transform: scaleX(1);
+                    }
+                    50%{
+                        transform: scale3d(1.05,1.05,1.05);
+                    }
+                    100%{
+                        transform: scaleX(1);
+                    }
+                }
+                .offer_text{
+                    h4{
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        letter-spacing: .03em;
+                        font-size: 18px;
+                        font-family: $lato;
+                        transition: all .3s ease;
+                        &:hover{
+                            color: $theme_color;
+            
+                        }
+                    }
+                    
+                    h6{
+                        font-size: 14px;
+                        font-family: $lato;
+                        color: $paragraph_clr;
+                        line-height: 24px;
+                        letter-spacing: .03em;
+                    }
+                }
+            }
+            .border_left{
+                border-left:  1px solid #dddddddd;
+            }
+            }
+        }
+
+
+    }
+    
+
+/* ==============================
+       |||||veg_collection part end||||
+=================================*/

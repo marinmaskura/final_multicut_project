@@ -1,0 +1,68 @@
+/* common css start */
+
+@import '../variable/variable';
+
+/*     
+html::-webkit-scrollbar,
+body::-webkit-scrollbar{
+        width: 5px;
+        background-color: var(--body_dark);
+    }
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb{
+        height: 30px !important;
+        border-radius: 10px;
+        background: gray;
+    }
+     */
+
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+
+
+ul,
+ol,
+li {
+        list-style: none;
+        margin-bottom: 0;
+        padding-left: 0;
+}
+
+
+
+img {
+        vertical-align: middle;
+        max-width: 100%;
+}
+
+.img-fluid {
+        max-width: 100%;
+        height: auto;
+}
+
+.w-100 {
+        width: 100%;
+
+}
+
+html,
+body {
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+        font-family: $lato;
+    
+
+}
+
+a {
+        text-decoration: none !important;
+        display: inline-block;
+
+}
+
+/* common css end */

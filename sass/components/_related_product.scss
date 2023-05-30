@@ -1,0 +1,257 @@
+
+@import '../variable/variable';
+
+
+/*dress part start*/ 
+.page_title{
+    background-color: #f8f8f8;
+    padding: 30px 0;
+    .page_right{
+        h4{
+            color: #222;
+            text-transform: uppercase;
+            font-weight: 700;
+            line-height: 1;
+            letter-spacing: .02em;
+            font-size: 16px;
+            margin-left: 25px;
+
+        }
+    }
+    .page_left{
+        text-align: right;
+        ul{
+            display: flex;
+            justify-content: flex-end;
+            li{
+                a{
+                    color: #555;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+
+}
+/*dress part end*/ 
+/* ==============================
+       |||||related product part start||||
+=================================*/
+#related_products{
+    background: $white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 65px 0;
+    .heading{
+        h2{
+            font-family: $lato;
+            font-size: 36px;
+            color: #222;
+            text-transform: capitalize;
+            font-weight: 700;
+            letter-spacing: .02em;
+            line-height: 1;
+            border-bottom: 1px solid #dddada;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+
+        }
+     
+        }
+    
+
+        .item{
+          
+            .model_image{
+                position: relative;
+
+                .display_image{
+                   img{
+                    display: none;
+                   }.active{
+                    display: block;
+                   }
+                }
+
+                .small_image{
+                    position: absolute;
+                    bottom: 15px;
+                    left: 0;
+                    ul{
+                        li{
+                            width: 45px;
+                            height: auto;
+                            margin-bottom: 5px;
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    opacity: .3;
+                                }
+                            
+                        }.active img{
+                            opacity: 1;
+                        }
+                    }
+                }
+
+                .label_block{
+                    position: absolute;
+                    .label_3{
+                        border-radius: 100%;
+                        background-color: $theme_color;
+                        text-align: center;
+                        font-size: 13px;
+                        font-family: $lato;
+                        font-weight: 700;
+                        position: absolute;
+                        padding: 9px 4px;
+                        text-transform: uppercase;
+                        color: #fff;
+                        top: -261px;
+                        left: 7px;
+                        z-index: 1;
+                    }
+                    .label_4{
+                        position: absolute;
+                        font-size: 14px;
+                        font-weight: 700;
+                        font-family: $lato;
+                        transform: rotate(268deg);
+                        top: -237px;
+                        right: -214px;
+                        letter-spacing: .1em;
+                        z-index: 1;
+                        color: #212529;
+                    }
+                }
+
+                .shopping_cart{
+                    position: absolute;
+                    bottom: 25px;
+                    right: 19px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                 
+                    a{
+                        
+                        opacity: 0;
+                        visibility: hidden;
+                        transform: translateX(100px);
+                        i{
+                            color: #6f6f6f;
+                            font-size: 18px;
+                            
+                        }
+                        &:nth-child(1){
+                            transition: all linear 0.3s;
+                        }
+                        &:nth-child(2){
+                            transition: all linear 0.4s;
+                        }
+                        &:nth-child(3){
+                            transition: all linear 0.5s;
+                        }
+                        &:nth-child(4){
+                            transition: all linear 0.6s;
+                        }
+                    }
+                }
+                &:hover .shopping_cart a{
+                    opacity: 1 !important;
+                    visibility: visible;
+                    transform: translateX(0px);
+                }
+            }
+       
+        }
+
+        .dress_type{
+            .star_icon{
+                i{
+                    color: #ffc107;
+                    font-size: 12px;
+                }
+            }
+            .dress_name a{
+                font-family: $lato;
+                font-weight: 400;
+                color: $paragraph_clr;
+                padding-bottom: 5px;
+                transition: all .5s ease;
+                font-size: 16px;
+            }
+            h4{
+                font-family: $lato;
+                span{
+                    color: #aaa;
+                    font-size: 14px;
+                    font-family: $lato;
+                }
+                }
+        
+                .colors{
+                    span{
+                        width: 20px !important;
+                        height: 20px !important;
+                        border-radius: 50%;
+                        display: inline-block;
+                    }
+                        span.yellow{
+                            background-color: yellow;
+                        }
+                        span.white{                        
+                            background-color: transparent;
+                            border: 1px solid #aaa;
+                        }
+                        span.pink{
+                            background-color: pink;
+                        }
+                        span.olive{
+                            background-color: olive;
+                        }
+                        span.navy{
+                            background-color: navy;
+                        }
+                        span.red{
+                            background-color: red;
+                        }
+                        span.black{
+                            background-color: black;
+                        }
+                        span.sky{
+                            background-color: skyblue;
+                        }
+                        span.grey{
+                            background-color: gray;
+                        }
+                        span.green{
+                            background-color: green;
+                        }
+                    
+                }
+        }
+
+
+    }
+
+    .dark #related_products{
+        background-color: $paragraph_clr;
+    }
+  
+    .dark #related_products h2{
+        color: #f1f3f5;
+    }
+   
+    .dark #related_products .dress_name a{
+        color: #cfd4da;
+    }
+
+
+
+/* ==============================
+       |||||related product part end||||
+=================================*/

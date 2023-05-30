@@ -1,0 +1,230 @@
+
+@import '../variable/variable';
+.theme_feature{
+    .settings{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        background-color: #f7f7f7;
+        box-shadow: 0 0 5px #9a9a9a8a;
+        transition: all .5s ease;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px 0 0 5px;
+        position: fixed;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        z-index: 9000;
+        cursor: pointer;
+        i{
+
+            transform: rotate(0deg);
+            animation: wheel 3s linear infinite;
+
+        }
+    }
+
+    .dark_light{
+        span{
+            width: 40px;
+            height: 38px;
+            display: flex;
+            background-color: #f7f7f7;
+            box-shadow: 0 0 5px #9a9a9a8a;
+            transition: all .5s ease;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px 0 0 5px;
+            position: fixed;
+            top: calc(50% + 60px);
+            right: 0;
+            transform: translateY(-50%);
+            z-index: 9000;
+            font-family: $lato;
+            cursor: pointer;
+
+        }
+    }
+  
+    .offcanvas_right_header{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        justify-content: flex-start;
+        padding: 20px;
+        font-size: 18px;
+        font-family: $lato;
+        color: #222;
+        box-shadow: inset 0 0 6px #73737317;
+        background-color: #f3f3f3;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-bottom: 1px solid #efefef;
+    .btn-close{
+        padding: 0;
+        margin: -14px;
+        opacity: 1;
+    }
+        
+    }
+}
+
+@keyframes wheel {
+    0% {
+            transform: rotate(0deg);
+    }
+
+    100% {
+            transform: rotate(360deg);
+    }
+}
+
+
+/*accordion start*/ 
+
+.right_accrodion_body{
+    margin-right: 32px;
+}
+.accordion-button::after {
+    background-image: none !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+    transform: rotate(0);
+}
+
+.theme_btn::after {
+    content: "\2b";
+    font-family: "Font Awesome 5 free";
+
+}
+
+.accordion-button {
+    background-color: white;
+
+}
+
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+
+.accordion-item{
+    .accordion-header{
+            font-size: 18px;
+            color: #212529;
+            text-transform: capitalize;
+            font-weight: 400;
+            letter-spacing: .03em;
+            line-height: 1;
+    }
+}
+
+// html::-webkit-scrollbar,
+.offcanvas-body::-webkit-scrollbar {
+    width: 5px;
+    background-color: var(--body_dark);
+}
+
+// html::-webkit-scrollbar-thumb,
+.offcanvas-body::-webkit-scrollbar-thumb {
+    height: 30px !important;
+    border-radius: 10px;
+    background: gray;
+}
+
+.right_accrodion_body{
+    max-height: 150px;
+    overflow-y: scroll;
+}
+.right_accrodion_body::-webkit-scrollbar{
+    width: 5px;
+    background-color: var(--body_dark);
+}
+.right_accrodion_body::-webkit-scrollbar-thumb {
+    height: 30px !important;
+    border-radius: 10px;
+    background: red;
+}
+
+
+.accrodion_inner_item {
+    
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  
+
+    li {
+            width: 48%;
+              
+    .box {
+            height: 150px;
+            width: 150px;
+            background-size: cover;
+            transition: all 2s ease-out 0s;
+            box-shadow: -1px 2px 5px 1px #ececec;
+    }
+
+                    .text {
+                            p {
+                                    font-size: 16px;
+                                    margin-top: 10px;
+                                    margin-bottom: 0;
+                                    color: #000;
+                            }
+
+                            a {
+                                    color: $theme_color;
+                                    border: 1px solid #ddd;
+                                    padding: 5px 10px;
+                                    border-radius: 30px;
+                                    line-height: 20px;
+                                    text-transform: uppercase;
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    transition: all linear .3s;
+                                    &:hover{
+                                            background-color: $theme_color;
+                                            color: $white;
+                                    }
+                            }
+                    }
+
+            }
+    
+}
+
+/*accordion end*/ 
+
+/*Dark mode start*/ 
+body.dark{
+    background-color: $paragraph_clr;
+    transition: all .3s ease;
+    
+}
+
+.dark .theme_feature .dark_light span {
+
+    background-color: #000;
+    box-shadow: none;
+    color: $white;
+}
+   
+
+
+
+   
+/*Dark mode end*/ 
